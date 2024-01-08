@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">GitExcercise</string>
-
+    <string name="msg_user_greeting">Welcome, </string>
+    <string name="msg_hint_user_greeting">Enter your greeting</string>
+    <string name="action_save">save</string>
+    <string name="action_edit_greeting">Edit Greeting</string>
     <string name="msg_hint_user_name">Enter your username</string>
     <string name="msg_hint_user_pass">Enter your password</string>
     <string name="msg_hint_user_mobile">Enter your registered mobile number</string>
@@ -9,4 +12,6 @@
     <string name="msg_forgot_password">Forgot password?</string>
     <string name="msg_dont_have_an_account">Don\'t have an account? \nclick here</string>
     <string name="action_get_otp">Get OTP</string>
+    <string name="err_invalid_greeting">Invalid Greeting</string>
+    <string name="msg_greeting_saved">Greeting Saved!!</string>
 </resources>
