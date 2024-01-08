@@ -23,5 +23,13 @@ class LoginActivity : AppCompatActivity() {
         tvForgotPass.setOnClickListener {
             startActivity(Intent(this@LoginActivity, ForgotPasswordActivity::class.java))
         }
+        buttonLogin.setOnClickListener {
+            if (etUserName.text.toString().isNotEmpty() && etUserName.text.toString().isNotBlank()) {
+                val intent = Intent(this@LoginActivity, ProfileActivity::class.java).apply {
+                    putExtra(IntentKeys.KEY_USER_NAME.name, etUserName.text.toString())
+                }
+                startActivity(intent)
+            }
+        }
     }
 }
