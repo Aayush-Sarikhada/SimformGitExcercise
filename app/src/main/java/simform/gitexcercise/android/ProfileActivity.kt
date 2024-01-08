@@ -31,7 +31,7 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun setupOnClickListener() = with(binding) {
         buttonSave.setOnClickListener {
-            // TODO: EditProfileActivity is pending
+            startActivity(Intent(this@ProfileActivity, EditProfileActivity::class.java))
         }
     }
 
