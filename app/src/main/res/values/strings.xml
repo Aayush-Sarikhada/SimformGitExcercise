@@ -14,4 +14,7 @@
     <string name="action_get_otp">Get OTP</string>
     <string name="err_invalid_greeting">Invalid Greeting</string>
     <string name="msg_greeting_saved">Greeting Saved!!</string>
+    <string name="err_invalid_username">Invalid Username</string>
+    <string name="err_invalid_password">Invalid Password</string>
+    <string name="msg_login_successfully">Login Successfully</string>
 </resources>
